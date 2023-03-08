@@ -14,11 +14,11 @@ function formatDate(date) {
 
   let currentHours = currentTime.getHours();
   if (currentHours < 10) {
-    currentHours = `0${hours}`;
+    currentHours = `0${currentHours}`;
   }
   let currentMinutes = date.getMinutes();
   if (currentMinutes < 10) {
-    currentMinutes = `0${minutes}`;
+    currentMinutes = `0${currentMinutes}`;
   }
   let current = `${currentDay},   ${currentHours}:${currentMinutes}`;
 
